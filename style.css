@@ -1,0 +1,43 @@
+.head{
+    background-color: ;
+    color: blue;
+}
+
+.navbar{
+    background-color: rebeccapurple;
+    color: #fff;
+    height: 80px;
+}
+
+.section-1{
+    height: 600px;
+    width: auto;
+    background-color: aqua;
+}
+.section-2{
+    background-color: palegreen;
+}
+.section-3{
+    background-color: palevioletred;
+}
+
+.img{
+    height: 300px;
+}
+
+.box{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+.sub-box{
+    margin: 10px;
+}
+
+.footer{
+    height: 600px;
+    width: auto;
+    background-color: rgb(19, 91, 91);
+    margin-top: 20px;
+}
