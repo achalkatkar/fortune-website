@@ -1,18 +1,44 @@
-.head{
-    background-color: ;
-    color: blue;
+
+.body{
+    margin: 0;
+    padding: 0;
+
 }
 
 .navbar{
-    background-color: rebeccapurple;
     color: #fff;
-    height: 80px;
+    height: 50px;
+    text-align: right;
+}
+
+.div{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: #e12222;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading{
+    font-size: 50px;
+    color: #e12222;
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 90px;
+    margin-left: 160px;
+}
+.sec-1-p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 180px;
 }
 
 .section-1{
     height: 600px;
     width: auto;
-    background-color: aqua;
+
 }
 .section-2{
     background-color: palegreen;
@@ -35,9 +61,9 @@
     margin: 10px;
 }
 
+/* footer section */
+
 .footer{
-    height: 600px;
-    width: auto;
-    background-color: rgb(19, 91, 91);
-    margin-top: 20px;
+    height: 400px;
+    background-color: peru;
 }
