@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Modern Login Page | AsmrProg</title>
 </head>
+
 <body>
-    <div class="login-container">
+    <!--
+    <section class="navbar">
+        <nav>
+            <div class="nav-container">
+              <div class="logo">MyLogo</div>
+              <input type="checkbox" id="menu-toggle" class="menu-toggle">
+              <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="./pages/about.html">About</a>
+                <a href="./pages/service.html">Services</a>
+                <a href="./pages/login.html">Login</a>
+                <a href="./pages/service.html">Contact</a>
+              </div>
+            </div>
+          </nav>
+    </section>
+    -->
 
-        <div class="login-heading">
-            <h1>Login Here!</h1>
-            <p>Don't have an account?
-                <a href="register.html">
-                    <span class="login-reg-page">Register Here</span>
-                </a>
-            </p>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
         </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div >
-        <p class="login-space">email/mobile</p>
-        <input type="text" placeholder="Enter email or mobile" class="login-email"/>
-         </div>
-
-         <div >
-            <p class="login-space">password</p>
-            <input type="password" placeholder="Enter your password" class="login-email"/>
-             </div>
-        
-             <div>
-                <p class="login-password">forgot password?</p>
-             </div>
-             
-             <div >
-                <button class="login-button">Sign in</button>
-             </div>
-
-             <div class="another-login">
-                <p>-----------------------Login Via-----------------------</p>
-             </div>
-             <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1292728474%3A1688741266841393&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AeDOFXjEAQM9bDrwbd7oLtt5WQWoyOo9OrQFLlSs61YTrstw8SdoDuU5_Ka0R0EPLgdK_bbuchJ3VA&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
-             <img src="../img/google.png" class="login-img"/>
-            </a>
-            <a href="https://www.facebook.com/">
-            <img src="../img/facebook.png" class="login-img"/>
-            </a>
-            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%2Fcheck%3Flang%3Den">
-            <img src="../img/twitter.png" class="login-img"/>
-            </a>
-         </div>
-    
+    <script src="login.js"></script>
 </body>
+
 </html>
